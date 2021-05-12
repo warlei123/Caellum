@@ -1,0 +1,15 @@
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/bin/Debug/net5.0/Caelum.deps.json
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/bin/Debug/net5.0/Caelum.runtimeconfig.json
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/bin/Debug/net5.0/Caelum.runtimeconfig.dev.json
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/bin/Debug/net5.0/Caelum.dll
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/bin/Debug/net5.0/ref/Caelum.dll
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/bin/Debug/net5.0/Caelum.pdb
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.csprojAssemblyReference.cache
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.GeneratedMSBuildEditorConfig.editorconfig
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.AssemblyInfoInputs.cache
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.AssemblyInfo.cs
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.csproj.CoreCompileInputs.cache
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.dll
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/ref/Caelum.dll
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.pdb
+/Users/warlei/Arquivos/projetos/loovi/estudoPOO-caelum/Caelum/obj/Debug/net5.0/Caelum.genruntimeconfig.cache

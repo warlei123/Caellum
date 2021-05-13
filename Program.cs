@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.IO;
 
 namespace Caelum
 {
@@ -105,11 +107,28 @@ namespace Caelum
 
                                 break;
                             case "4":
+
+                                Stream relatorio = File.Open("relatorio.txt", FileMode.Open);
+                                StreamWriter escrever = new StreamWriter(relatorio);
                                 foreach (var conta in contas)
                                 {
-                                    Console.WriteLine($"Nome: {conta.PrimeiroNome} {conta.UltimoNome} Conta Nº: {conta.NumeroDaConta}, Saldo: R${conta.MostrarSaldo().ToString("N2")}  ");
+                                    Console.WriteLine($"Nome: {conta.PrimeiroNome} {conta.UltimoNome}\nConta Nº: {conta.NumeroDaConta}\nSaldo: R${conta.MostrarSaldo().ToString("N2")}  ");
+                                    escrever.WriteLine($"Nome: {conta.PrimeiroNome} {conta.UltimoNome}\nConta Nº: {conta.NumeroDaConta}\nSaldo: R${conta.MostrarSaldo().ToString("N2")}\n");
                                 }
+                                escrever.Close();
+                                relatorio.Close();
                                 break;
+
+                            case "5":
+                            
+                                var filtro = contas.Where(conta => conta.MostrarSaldo() > 2000);
+                                foreach (Conta conta in filtro)
+                                {
+                                    Console.WriteLine(conta.PrimeiroNome);
+                                }
+
+                                break;
+
                             default:
                                 Console.WriteLine($"Comando Invalido");
                                 break;

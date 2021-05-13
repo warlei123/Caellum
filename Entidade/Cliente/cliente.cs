@@ -23,7 +23,7 @@ namespace Caelum
             Rg = rg;
             Cpf = cpf;
             dataNascismento = new DateTime(1992, 12, 19).ToString();
-
+       
 
         }
     }
